@@ -1,19 +1,30 @@
 ﻿
- using System;
-class program
-{
-    static void Main(String[] args)
-    {
+using System.Runtime.InteropServices;
 
-        string name = "shahzad";
-        int age = 20;
-        float CGPA = 3.5f;
-        long largenumber = 556698745;
-        Console.WriteLine("Name " + name);
-        Console.WriteLine("Age " + age);
-        Console.WriteLine("CGPA " + CGPA);
-        Console.WriteLine("largenumber " + largenumber);
-       
 
+    class program
+        {
+        static void Main(string[] args)
+        {
+            int a = 20;
+            long b = 3000;
+            float f = 50.2f;
+            double d = 50000;
+            
+           // a = (int) d;
+        //f= (float)b;
+        d = (double)f;
+
+
+
+
+        Console.WriteLine("A" + a);
+            Console.WriteLine("B" + b);
+            Console.WriteLine("F" + f);
+            Console.WriteLine("D" + d);
+           
+
+
+        }
     }
-}
+
